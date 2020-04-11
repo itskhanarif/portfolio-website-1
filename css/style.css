@@ -69,4 +69,31 @@ section::before{
 .navbar-brand{
   color: #fff!important;
   font-weight: bolder;
+  margin-left: 50px;
+}
+#navbarSupportedContent{
+  margin-right: 20px;
+}
+.header-center p{
+  color: #fff;
+  padding: 10px 0 20px 0;
+  font-size: 1.3rem;
+}
+.header-buttons a{
+  border: 1px solid white;
+  border-radius: 100px;
+  margin: 0px 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.header-buttons a:hover{
+  background-color: #fff;
+  color : #58BAFA;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
