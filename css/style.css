@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-section{
+.header{
   /* background-color: cyan; */
   width: 100%;
   height: 100vh;
@@ -15,7 +15,7 @@ section{
   clip-path : polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
   position: relative;
 }
-section::before{
+.header::before{
   content: "";
   position: absolute;
   top: 0;
@@ -96,4 +96,27 @@ section::before{
   color : #58BAFA;
   text-decoration: none;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.header-extra-div{
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+  padding: 40px 0px;
+}
+.header-extra-div .container{
+  background-color: pink;
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+}
+.header-extra-div-1{
+  background-color: red;
+}
+.header-extra-div-2{
+  background-color: yellow;
+}
+.header-extra-div-3{
+  background-color: green;
 }
