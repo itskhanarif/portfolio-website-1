@@ -12,7 +12,9 @@ h2, .service-offer-services h2{
   margin: 20px 0 15px 0;
   word-spacing: 4px;
 }
-
+i{
+  color: #2fccd0;
+}
 /* *************Home Section Start ************ */
 .header{
   /* background-color: cyan; */
@@ -229,6 +231,36 @@ h2, .service-offer-services h2{
   /* background-color: purple; */
   text-align: center;
   margin-top: 60px;
-
+}
+.progress{
+  height: 0.6rem!important;
+  margin-bottom: 25px!important;
 }
 /* ************Service Offer End*********** */
+
+/* ******** Project Done Start ********* */
+.project-done{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+  /* background-color: red; */
+}
+.project-done h1{
+  font-size: 2rem;
+  text-align: center;
+}
+.project-done-heading p{
+  padding: 15px 0;
+}
+.individual-project{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  /* background-color: green; */
+  text-align: center;
+}
+
+
+/* ******** Project Done End ********* */
