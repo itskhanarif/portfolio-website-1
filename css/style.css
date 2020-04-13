@@ -246,7 +246,7 @@ i{
   margin: 30px 0px;
   /* background-color: red; */
 }
-.project-done h1{
+.project-done h1, .pricing-header h1{
   font-size: 2rem;
   text-align: center;
 }
@@ -264,3 +264,104 @@ i{
 
 
 /* ******** Project Done End ********* */
+
+/* ************** Pricing Start *********** */
+.pricing{
+  width: 100%;
+  height: 100vh;
+  /* background-color: Blue; */
+  position: relative;
+}
+.pricing:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+  z-index: -1;
+}
+.pricing-header{
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+}
+.pricing-container{
+  /* background-color: green; */
+  width: 70%;
+  height: 50vh;
+  margin : auto;
+  text-align: center;
+  display: grid;
+  padding: 20px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+
+}
+.pricing a{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.pricing span{
+  font-size: 40px;
+  line-height: 1;
+  color: #606060;
+}
+.pricing .card{
+  transition: 0.4s ease;
+}
+.pricing .card-header{
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 25px 0!important;
+  background-color: #fff;
+}
+.pricing .card-body{
+  padding: 30px 0px!important;
+}
+.pricing li{
+  list-style: none;
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #606060;
+}
+.pricing .card-footer{
+  background-color: #fff;
+  padding: 30px 0!important;
+}
+.pricing a{
+  border: 1px solid #50d1c0;
+  border-radius: 100px;
+  margin: 0px 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #50d1c0;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.card:hover .card-footer a{
+  background-color: #50d1c0;
+  color : #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+.card:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-20px);
+  transition: 0.4s;
+}
+.card:hover .card-body span, .card:hover .card-header{
+  color: #50d1c0;
+}
+.card-second{
+  transform: translateY(-20px);
+}
+.card-second:hover{
+  transform: translateY(-40px);
+}
+/* ************** Pricing End *********** */
