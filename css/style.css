@@ -246,9 +246,11 @@ i{
   margin: 30px 0px;
   /* background-color: red; */
 }
-.project-done h1, .pricing-header h1{
+.project-done h1, .pricing-header h1, .newsletter-header h1{
   font-size: 2rem;
   text-align: center;
+  font-weight: 600;
+  padding: 25px 0;
 }
 .project-done-heading p{
   padding: 15px 0;
@@ -511,3 +513,55 @@ form:hover .form-button button{
 }
 
 /* *********** Contact Us End *********** */
+
+/* ************ Newsletter Start ********** */
+.newsletter{
+  width: 100%;
+  height: auto;
+  margin: 80px auto;
+}
+.news-input{
+  border-radius: 100px 0px 0px 100px;
+  min-width: 150px;
+  min-height: 45px;
+}
+.input-group-text{
+  border-radius: 0 100px 100px 0;
+  color: #fff;
+  background: #5bc0de;
+  min-width: 130px;
+  min-height: 40px;
+}
+
+/* ************ Newsletter End ********** */
+
+/* ***************** Footer Start ************** */
+.footer{
+  width: 100%;
+  height: auto;
+  padding: 50px 0 20px 0;
+  background-color: #00abff;
+  position: relative;
+}
+.footer p{
+  color: #fff;
+  font-size: 0.9rem;
+}
+.nav-link-footer li{
+  list-style: none;
+}
+.nav-link-footer li a{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  font-style: none;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.footer-header{
+  color: #A1ECFF;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* ***************** Footer End ************** */
