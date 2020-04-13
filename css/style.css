@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-h2, .service-offer-services h2{
+h2, .service-offer-services h2,{
   font-size: 0.9rem;
   line-height: 1.1;
   font-weight: bold;
@@ -218,7 +218,7 @@ i{
   grid-template-columns: 15% 85%;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.service-offer-header h1{
+.service-offer-header h1, .customer-feedback-header h1{
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -365,3 +365,37 @@ i{
   transform: translateY(-40px);
 }
 /* ************** Pricing End *********** */
+
+/* ************** Customer feedback Start ************** */
+.customer-feedback-header{
+  text-align: center;
+  padding: 20px 0;
+}
+.carousel-inner{
+  padding: 20px 10vw;
+}
+.carousel-item{
+  background-color: green;
+  width: 80vw;
+  height: 45vh;
+  padding: 15px 0;
+}
+.carousel-item-first-slide{
+  padding: 10px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 220px;
+  grid-column-gap: 50px;
+  justify-content: center;
+}
+.carousel-items-1{
+  background-color: yellow;
+}
+.carousel-items-2{
+  background-color: white;
+}
+.carousel-items-3{
+  background-color: pink;
+}
+/* ************** Customer feedback End ************** */
