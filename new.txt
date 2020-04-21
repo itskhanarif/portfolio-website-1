@@ -1,2 +1,5 @@
 1. linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3))
 2. clip-path : polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0)
+
+cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js
+cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js

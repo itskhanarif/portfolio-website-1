@@ -5,16 +5,26 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-h2, .service-offer-services h2,{
-  font-size: 0.9rem;
+h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h2{
+  font-size: 1.4rem;
   line-height: 1.1;
-  font-weight: bold;
+  font-weight: 600;
   margin: 20px 0 15px 0;
   word-spacing: 4px;
+}
+h3{
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 10px 0;
 }
 i{
   color: #2fccd0;
 }
+
 /* *************Home Section Start ************ */
 .header{
   /* background-color: cyan; */
@@ -181,12 +191,12 @@ i{
 }
 .service-offer-container{
   width: 90%;
-  height: 400px;
+  height: 500px;
   margin-top: 20px;
   /* background-color: red; */
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 70px auto;
+  grid-template-rows: 90px auto;
 }
 .service-offer-header{
   /* background-color: blue; */
@@ -218,19 +228,10 @@ i{
   grid-template-columns: 15% 85%;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.service-offer-header h1, .customer-feedback-header h1{
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.service-des-1, .service-des-2, .service-des-3{
-  /* background-color: pink; */
-
-}
 .service-logo-1, .service-logo-2, .service-logo-3{
   /* background-color: purple; */
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .progress{
   height: 0.6rem!important;
